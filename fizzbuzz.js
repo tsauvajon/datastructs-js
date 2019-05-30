@@ -14,7 +14,7 @@ let fizzbuzz = (n, checks) => {
         let found = false
         let str = ''
 
-		checks.forEach((c) => {
+        checks.forEach((c) => {
             if (i%c.nb === 0) {
                 found = true
                 str = `${str}${c.msg}`
